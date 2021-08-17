@@ -1,0 +1,725 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		635F342B26A70FDE0073315D /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635F342A26A70FDE0073315D /* Tests_iOS.swift */; };
+		635F343626A70FDE0073315D /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635F343526A70FDE0073315D /* Tests_macOS.swift */; };
+		635F343826A70FDE0073315D /* cupcakeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635F340F26A70FDD0073315D /* cupcakeApp.swift */; };
+		635F343926A70FDE0073315D /* cupcakeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635F340F26A70FDD0073315D /* cupcakeApp.swift */; };
+		635F343A26A70FDE0073315D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635F341026A70FDD0073315D /* ContentView.swift */; };
+		635F343B26A70FDE0073315D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635F341026A70FDD0073315D /* ContentView.swift */; };
+		635F343C26A70FDE0073315D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 635F341126A70FDE0073315D /* Assets.xcassets */; };
+		635F343D26A70FDE0073315D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 635F341126A70FDE0073315D /* Assets.xcassets */; };
+		635F344D26A72F1F0073315D /* appleMusic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635F344C26A72F1F0073315D /* appleMusic.swift */; };
+		635F344E26A72F1F0073315D /* appleMusic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635F344C26A72F1F0073315D /* appleMusic.swift */; };
+		635F345026A742BB0073315D /* forms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635F344F26A742BB0073315D /* forms.swift */; };
+		635F345126A742BB0073315D /* forms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635F344F26A742BB0073315D /* forms.swift */; };
+		635F345626A7F3C60073315D /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635F345526A7F3C60073315D /* AddressView.swift */; };
+		635F345726A7F3C60073315D /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635F345526A7F3C60073315D /* AddressView.swift */; };
+		635F345926A7F7940073315D /* CheckOutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635F345826A7F7940073315D /* CheckOutView.swift */; };
+		635F345A26A7F7940073315D /* CheckOutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635F345826A7F7940073315D /* CheckOutView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		635F342726A70FDE0073315D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 635F340A26A70FDC0073315D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 635F341526A70FDE0073315D;
+			remoteInfo = "cupcake (iOS)";
+		};
+		635F343226A70FDE0073315D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 635F340A26A70FDC0073315D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 635F341D26A70FDE0073315D;
+			remoteInfo = "cupcake (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		635F340F26A70FDD0073315D /* cupcakeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cupcakeApp.swift; sourceTree = "<group>"; };
+		635F341026A70FDD0073315D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		635F341126A70FDE0073315D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		635F341626A70FDE0073315D /* cupcake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cupcake.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		635F341926A70FDE0073315D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		635F341E26A70FDE0073315D /* cupcake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cupcake.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		635F342026A70FDE0073315D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		635F342126A70FDE0073315D /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		635F342626A70FDE0073315D /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		635F342A26A70FDE0073315D /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		635F342C26A70FDE0073315D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		635F343126A70FDE0073315D /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		635F343526A70FDE0073315D /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		635F343726A70FDE0073315D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		635F344C26A72F1F0073315D /* appleMusic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appleMusic.swift; sourceTree = "<group>"; };
+		635F344F26A742BB0073315D /* forms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forms.swift; sourceTree = "<group>"; };
+		635F345526A7F3C60073315D /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
+		635F345826A7F7940073315D /* CheckOutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckOutView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		635F341326A70FDE0073315D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		635F341B26A70FDE0073315D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		635F342326A70FDE0073315D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		635F342E26A70FDE0073315D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		635F340926A70FDC0073315D = {
+			isa = PBXGroup;
+			children = (
+				635F340E26A70FDD0073315D /* Shared */,
+				635F341826A70FDE0073315D /* iOS */,
+				635F341F26A70FDE0073315D /* macOS */,
+				635F342926A70FDE0073315D /* Tests iOS */,
+				635F343426A70FDE0073315D /* Tests macOS */,
+				635F341726A70FDE0073315D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		635F340E26A70FDD0073315D /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				635F340F26A70FDD0073315D /* cupcakeApp.swift */,
+				635F341026A70FDD0073315D /* ContentView.swift */,
+				635F344C26A72F1F0073315D /* appleMusic.swift */,
+				635F344F26A742BB0073315D /* forms.swift */,
+				635F345826A7F7940073315D /* CheckOutView.swift */,
+				635F341126A70FDE0073315D /* Assets.xcassets */,
+				635F345526A7F3C60073315D /* AddressView.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		635F341726A70FDE0073315D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				635F341626A70FDE0073315D /* cupcake.app */,
+				635F341E26A70FDE0073315D /* cupcake.app */,
+				635F342626A70FDE0073315D /* Tests iOS.xctest */,
+				635F343126A70FDE0073315D /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		635F341826A70FDE0073315D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				635F341926A70FDE0073315D /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		635F341F26A70FDE0073315D /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				635F342026A70FDE0073315D /* Info.plist */,
+				635F342126A70FDE0073315D /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		635F342926A70FDE0073315D /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				635F342A26A70FDE0073315D /* Tests_iOS.swift */,
+				635F342C26A70FDE0073315D /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		635F343426A70FDE0073315D /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				635F343526A70FDE0073315D /* Tests_macOS.swift */,
+				635F343726A70FDE0073315D /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		635F341526A70FDE0073315D /* cupcake (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 635F344026A70FDE0073315D /* Build configuration list for PBXNativeTarget "cupcake (iOS)" */;
+			buildPhases = (
+				635F341226A70FDE0073315D /* Sources */,
+				635F341326A70FDE0073315D /* Frameworks */,
+				635F341426A70FDE0073315D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cupcake (iOS)";
+			productName = "cupcake (iOS)";
+			productReference = 635F341626A70FDE0073315D /* cupcake.app */;
+			productType = "com.apple.product-type.application";
+		};
+		635F341D26A70FDE0073315D /* cupcake (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 635F344326A70FDE0073315D /* Build configuration list for PBXNativeTarget "cupcake (macOS)" */;
+			buildPhases = (
+				635F341A26A70FDE0073315D /* Sources */,
+				635F341B26A70FDE0073315D /* Frameworks */,
+				635F341C26A70FDE0073315D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cupcake (macOS)";
+			productName = "cupcake (macOS)";
+			productReference = 635F341E26A70FDE0073315D /* cupcake.app */;
+			productType = "com.apple.product-type.application";
+		};
+		635F342526A70FDE0073315D /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 635F344626A70FDE0073315D /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				635F342226A70FDE0073315D /* Sources */,
+				635F342326A70FDE0073315D /* Frameworks */,
+				635F342426A70FDE0073315D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				635F342826A70FDE0073315D /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 635F342626A70FDE0073315D /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		635F343026A70FDE0073315D /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 635F344926A70FDE0073315D /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				635F342D26A70FDE0073315D /* Sources */,
+				635F342E26A70FDE0073315D /* Frameworks */,
+				635F342F26A70FDE0073315D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				635F343326A70FDE0073315D /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 635F343126A70FDE0073315D /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		635F340A26A70FDC0073315D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					635F341526A70FDE0073315D = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					635F341D26A70FDE0073315D = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					635F342526A70FDE0073315D = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 635F341526A70FDE0073315D;
+					};
+					635F343026A70FDE0073315D = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 635F341D26A70FDE0073315D;
+					};
+				};
+			};
+			buildConfigurationList = 635F340D26A70FDC0073315D /* Build configuration list for PBXProject "cupcake" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 635F340926A70FDC0073315D;
+			productRefGroup = 635F341726A70FDE0073315D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				635F341526A70FDE0073315D /* cupcake (iOS) */,
+				635F341D26A70FDE0073315D /* cupcake (macOS) */,
+				635F342526A70FDE0073315D /* Tests iOS */,
+				635F343026A70FDE0073315D /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		635F341426A70FDE0073315D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				635F343C26A70FDE0073315D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		635F341C26A70FDE0073315D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				635F343D26A70FDE0073315D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		635F342426A70FDE0073315D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		635F342F26A70FDE0073315D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		635F341226A70FDE0073315D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				635F343A26A70FDE0073315D /* ContentView.swift in Sources */,
+				635F345026A742BB0073315D /* forms.swift in Sources */,
+				635F344D26A72F1F0073315D /* appleMusic.swift in Sources */,
+				635F343826A70FDE0073315D /* cupcakeApp.swift in Sources */,
+				635F345926A7F7940073315D /* CheckOutView.swift in Sources */,
+				635F345626A7F3C60073315D /* AddressView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		635F341A26A70FDE0073315D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				635F343B26A70FDE0073315D /* ContentView.swift in Sources */,
+				635F345126A742BB0073315D /* forms.swift in Sources */,
+				635F344E26A72F1F0073315D /* appleMusic.swift in Sources */,
+				635F343926A70FDE0073315D /* cupcakeApp.swift in Sources */,
+				635F345A26A7F7940073315D /* CheckOutView.swift in Sources */,
+				635F345726A7F3C60073315D /* AddressView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		635F342226A70FDE0073315D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				635F342B26A70FDE0073315D /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		635F342D26A70FDE0073315D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				635F343626A70FDE0073315D /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		635F342826A70FDE0073315D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 635F341526A70FDE0073315D /* cupcake (iOS) */;
+			targetProxy = 635F342726A70FDE0073315D /* PBXContainerItemProxy */;
+		};
+		635F343326A70FDE0073315D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 635F341D26A70FDE0073315D /* cupcake (macOS) */;
+			targetProxy = 635F343226A70FDE0073315D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		635F343E26A70FDE0073315D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		635F343F26A70FDE0073315D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		635F344126A70FDE0073315D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8637D4V286;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gg.cupcake;
+				PRODUCT_NAME = cupcake;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		635F344226A70FDE0073315D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8637D4V286;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gg.cupcake;
+				PRODUCT_NAME = cupcake;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		635F344426A70FDE0073315D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8637D4V286;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gg.cupcake;
+				PRODUCT_NAME = cupcake;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		635F344526A70FDE0073315D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8637D4V286;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gg.cupcake;
+				PRODUCT_NAME = cupcake;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		635F344726A70FDE0073315D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8637D4V286;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gg.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "cupcake (iOS)";
+			};
+			name = Debug;
+		};
+		635F344826A70FDE0073315D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8637D4V286;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gg.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "cupcake (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		635F344A26A70FDE0073315D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8637D4V286;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "gg.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "cupcake (macOS)";
+			};
+			name = Debug;
+		};
+		635F344B26A70FDE0073315D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8637D4V286;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "gg.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "cupcake (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		635F340D26A70FDC0073315D /* Build configuration list for PBXProject "cupcake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				635F343E26A70FDE0073315D /* Debug */,
+				635F343F26A70FDE0073315D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		635F344026A70FDE0073315D /* Build configuration list for PBXNativeTarget "cupcake (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				635F344126A70FDE0073315D /* Debug */,
+				635F344226A70FDE0073315D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		635F344326A70FDE0073315D /* Build configuration list for PBXNativeTarget "cupcake (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				635F344426A70FDE0073315D /* Debug */,
+				635F344526A70FDE0073315D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		635F344626A70FDE0073315D /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				635F344726A70FDE0073315D /* Debug */,
+				635F344826A70FDE0073315D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		635F344926A70FDE0073315D /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				635F344A26A70FDE0073315D /* Debug */,
+				635F344B26A70FDE0073315D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 635F340A26A70FDC0073315D /* Project object */;
+}
